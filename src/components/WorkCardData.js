@@ -2,8 +2,9 @@ import pro1 from '../assets/Google-Doc.png'
 import pro2 from '../assets/Gym.png'
 import pro3 from '../assets/Kanban.png'
 import pro4 from '../assets/Twitter.png'
-
+import pro5 from '../assets/udemy.png'
 const ProjectCardData = [
+    
     {
         imgsrc:pro1,
         title:"Google-Doc Clone",
@@ -35,6 +36,14 @@ const ProjectCardData = [
         text2:"Tech stack used : HTML, CSS, React.js, JavaScript, React-router-dom, Redux, Material-UI.",
         view:"https://twitter-clone-project.onrender.com/",
         source:"https://github.com/Himanshu9604/Twitter-Clone"
+    },
+    {
+        imgsrc:pro5,
+        title:"Udemy Website",
+        text1:"This project purpose is to design the Front-end of a Udemy Website. ",
+        text2:"Tech stack used : HTML, CSS, React.js, JavaScript, React-router-dom, Redux, Material-UI.",
+        view:"https://udemy-project-gilt.vercel.app/",
+        source:"https://github.com/Himanshu9604/Udemy-Project"
     }
 ];
 
