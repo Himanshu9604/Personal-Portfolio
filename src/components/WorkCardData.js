@@ -1,17 +1,19 @@
-import pro1 from '../assets/Google-Doc.png'
+import pro1 from '../assets/udemy.png'
 import pro2 from '../assets/Gym.png'
 import pro3 from '../assets/Kanban.png'
 import pro4 from '../assets/Twitter.png'
-import pro5 from '../assets/udemy.png'
+import pro5 from '../assets/Google-Doc.png'
+import pro6 from '../assets/shoppingcart.png'
 const ProjectCardData = [
     
+
     {
         imgsrc:pro1,
-        title:"Google-Doc Clone",
-        text1:"This projects aim is to develop a Google-Docs-Clone app for users to create document.",
-        text2:"Tech stack used : HTML, CSS, React.js, JavaScript, React-router-dom",
-        view:"https://googledocs-l385.onrender.com/",
-        source:"https://github.com/Himanshu9604/Google-Doc"
+        title:"Udemy Website",
+        text1:"This project purpose is to design the Front-end of a Udemy Website. ",
+        text2:"Tech stack used : HTML, CSS, React.js, JavaScript, React-router-dom, Redux, Material-UI.",
+        view:"https://udemy-project-gilt.vercel.app/",
+        source:"https://github.com/Himanshu9604/Udemy-Project"
     },
     {
         imgsrc:pro2,
@@ -37,13 +39,21 @@ const ProjectCardData = [
         view:"https://twitter-clone-project.onrender.com/",
         source:"https://github.com/Himanshu9604/Twitter-Clone"
     },
-    {
+        {
         imgsrc:pro5,
-        title:"Udemy Website",
-        text1:"This project purpose is to design the Front-end of a Udemy Website. ",
+        title:"Google-Doc Clone",
+        text1:"This projects aim is to develop a Google-Docs-Clone app for users to create document.",
+        text2:"Tech stack used : HTML, CSS, React.js, JavaScript, React-router-dom",
+        view:"https://googledocs-l385.onrender.com/",
+        source:"https://github.com/Himanshu9604/Google-Doc"
+    },
+    {
+        imgsrc:pro6,
+        title:"Shopping Cart",
+        text1:"This project purpose is to design the Front-end of a Shopping Cart. ",
         text2:"Tech stack used : HTML, CSS, React.js, JavaScript, React-router-dom, Redux, Material-UI.",
-        view:"https://udemy-project-gilt.vercel.app/",
-        source:"https://github.com/Himanshu9604/Udemy-Project"
+        view:"https://shopping-cart-h8r7.onrender.com/",
+        source:"https://github.com/Himanshu9604/Shoping-Cart"
     }
 ];
 
